@@ -45,6 +45,9 @@ body #blu {
 body #blan {
   color: white;
 }
+body #bgblack {
+  background-color: black;
+}
 body .containerb {
   width: 60%;
   height: 30vh;
@@ -60,4 +63,17 @@ body .containerc {
   margin: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+body #heroes {
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(62, 219, 219);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body .flex {
+  display: flex;
+  flex-direction: row;
 }/*# sourceMappingURL=style.css.map */

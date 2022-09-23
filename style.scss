@@ -84,10 +84,10 @@ body {
 
     #heroes {
         height: 80vh;
-        width: 100% background-color: rgb(62, 219, 219);
+        width: 100%; background-color: rgb(62, 219, 219);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: center;}
 
         .flex {
             display: flex;flex-direction: row;
