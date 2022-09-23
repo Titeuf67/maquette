@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: "Lato", "Roboto";
+}
+body #bordur {
+  border: 2px solid rgb(62, 219, 219);
+  border-radius: 20%;
+  color: white;
+  background-color: rgb(62, 219, 219);
+}
+body #hero {
+  height: 80vh;
+  background-image: url("./hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body header nav {
+  margin: auto;
+  width: 80%;
+}
+body header nav div {
+  display: flex;
+  justify-content: space-between;
+}
+body header nav div ul {
+  width: 40%;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-around;
+}
+body .container {
+  width: 60%;
+  height: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+body #blu {
+  color: rgb(62, 219, 219);
+}
+body #blan {
+  color: white;
+}
+body .containerb {
+  width: 60%;
+  height: 40vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .containerc {
+  width: 100%;
+  height: 40vh;
+  margin: auto;
+  background-color: rgb(62, 219, 219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

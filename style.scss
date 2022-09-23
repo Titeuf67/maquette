@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: "Lato", "Roboto";
+
+    #bordur {
+        border: 2px solid rgb(62, 219, 219);
+        border-radius: 20%;
+        color: white;
+        background-color: rgb(62, 219, 219);
+    }
+
+
+    #hero {
+        height: 80vh;
+        background-image: url('./hero.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    header {
+        nav {
+            margin: auto;
+            width: 80%;
+
+            div {
+
+                display: flex;
+                justify-content: space-between;
+
+                ul {
+                    width: 40%;
+                    list-style: none;
+                    padding-left: 0;
+                    display: flex;
+                    justify-content: space-around;
+                }
+            }
+
+
+        }
+    }
+
+    .container {
+        width: 60%;
+        height: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    #blu {
+        color: rgb(62, 219, 219);
+    }
+
+    #blan {
+        color: white;
+    }
+
+    .containerb {
+        width: 60%;
+        height: 40vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerc {
+        width: 60%;
+        height: 40vh;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #heroes {
+        height: 80vh;
+        background-color: rgb(62, 219, 219);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
