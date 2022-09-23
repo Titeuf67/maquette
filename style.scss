@@ -9,9 +9,8 @@ body {
         background-color: rgb(62, 219, 219);
     }
 
-
     #hero {
-        height: 80vh;
+        height: 800px;
         background-image: url('./hero.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -60,6 +59,7 @@ body {
     }
 
     #bgblack {
+        color: white;
         background-color: black;
     }
 
@@ -82,53 +82,109 @@ body {
         align-items: center;
     }
 
+    .joes {
+        width: 18%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .name {
+            margin-bottom: 0;
+        }
+    }
+
+    p {
+        text-align: center;
+    }
+
     #heroes {
         height: 80vh;
-        width: 100%; background-color: rgb(62, 219, 219);
+        width: 100%;
+        background-color: rgb(62, 219, 219);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;}
+        background-position: center;
 
-        .flex {
-            display: flex;flex-direction: row;
+        h2 {
+            text-align: center;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
         }
+    }
 
+    .flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
+    #bordu {
+        border: 2px solid white;
+        border-radius: 20%;
+    }
 
+    // carte
 
+    #hero2 {
+        height: 80vh;
+        background-image: url('Map.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 
+    .container2 {
+        width: 100%;
+        height: 90%;
+        margin: auto;
+    }
 
+    // footer
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .containerd {
+        color: white;
+        background-color: black;
+        width: 60%;
+        height: 30vh;
+        list-style: none;
+        margin: auto;
+        display: flex;
 
     }
+.col{display: flex;flex-direction: column;}
+.row{display: flex;flex-direction: row;}
+.bdure{border:solide 10px white;height: 10px;width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
