@@ -59,9 +59,13 @@ body {
         color: white;
     }
 
+    #bgblack {
+        background-color: black;
+    }
+
     .containerb {
         width: 60%;
-        height: 40vh;
+        height: 30vh;
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -70,20 +74,24 @@ body {
     }
 
     .containerc {
-        width: 60%;
-        height: 40vh;
+        width: 100%;
+        height: 90vh;
         margin: auto;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
         align-items: center;
     }
+
     #heroes {
         height: 80vh;
-        background-color: rgb(62, 219, 219);
+        width: 100% background-color: rgb(62, 219, 219);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
 
+        .flex {
+            display: flex;flex-direction: row;
+        }
 
 
 
@@ -123,4 +131,4 @@ body {
 
 
 
-}
+    }
